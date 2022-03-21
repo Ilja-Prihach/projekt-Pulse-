@@ -1,0 +1,121 @@
+@media screen and  ( max-width:1200px ){
+
+}
+
+@media screen and  ( max-width:991px ){
+    .header {
+        justify-content: space-around;
+    }
+    .promo {
+        &__wrapper {
+            margin-right: 90px;
+        }
+    }  
+    .title {
+        &_left {
+            font-size: 28px;
+            margin-left: 35px;
+        }
+    } 
+    .consultation {
+        padding: 70px 0px 62px 0px;
+        &__descr {
+            margin-top: 65px;
+            margin-left: 35px;
+        }
+    }  
+    .feed-form {
+       margin-left: 35px;
+    }             
+}
+
+@media screen and  ( max-width:768px ) {
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin: 70px 75px 0px 0px;
+        }
+        &__header {
+            text-align: end;
+        }
+        &__subheader {
+            text-align: end;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items:center;
+            margin-top: 50px;
+        }
+        &__item {
+            max-width: 300px;
+        }
+        &__subtitle {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin: 7px 0px 30px 0px;
+        }                   
+    }  
+}
+
+@media screen and  ( max-width:575px ){
+    .header {
+        flex-direction: column;
+        &__official {
+           display: block; 
+           margin-top: 20px;
+        }
+        &__contacts {
+           margin-top: 20px;
+        }
+    }  
+    .promo {
+        &__wrapper {
+            margin: 45px 0px 0px 0px;
+            display: block;
+            text-align: center;
+        }
+        &__header {
+            text-align: center;
+            font-size: 38px;
+            font-weight: 600;
+        }
+        &__subheader {
+           text-align: center;
+        }
+        &__icons {
+            width: 320px;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        &__icon {
+            margin-top: 30px;
+            img {
+                margin-bottom: 8px;
+            }
+        }
+    } 
+    .consultation {
+        padding-top: 50px;
+        &__descr {
+            margin-top: 65px;
+            margin-left: 10px;
+        }
+    }  
+    .feed-form {
+       margin-left: 10px;
+    } 
+    .title {
+        &_left {
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    }                  
+}
