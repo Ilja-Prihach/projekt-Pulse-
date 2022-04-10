@@ -41,7 +41,12 @@
         &__content {
             justify-content: space-evenly;
         }
-    }           
+    }   
+    .feed {
+        &__item {
+            margin-left: 20px;
+        }
+    }        
 }
 
 @media screen and  ( max-width:768px ) {
@@ -51,6 +56,7 @@
         }
     }
     .promo {
+        background: url(../img/bg/bg_mobile.jpg) center (center/cover) no-repeat;
         &__wrapper {
             margin: 70px 75px 0px 0px;
         }
@@ -109,6 +115,15 @@
             height: 40px;
             font-size: 15px;
             line-height: 37px;
+        }
+    }
+    .feed {
+        &__item {
+            align-items: flex-start;
+        }
+        &__img {
+            width: 120px;
+            height: 120px;
         }
     }
     
@@ -193,6 +208,22 @@
             height: 50px;
             font-size: 18px;
             line-height: 48px;
+        }
+    }
+    .feed {
+        &__item {
+            flex-direction: column;
+            align-items: center;
+
+        }
+        &__text {
+            margin: 20px 0 0 0;
+        }
+        &__subtitle{
+            text-align: center;
+        }
+        &__count {
+            text-align: center;
         }
     }
 }
