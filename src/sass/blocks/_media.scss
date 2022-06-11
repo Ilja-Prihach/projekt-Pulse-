@@ -46,7 +46,11 @@
         &__item {
             margin-left: 20px;
         }
-    }        
+    }  
+    
+    .modal {
+        padding: 16px 0px 6px 5px;
+    }
 }
 
 @media screen and  ( max-width:768px ) {
@@ -231,6 +235,16 @@
         &__info {
             width: 100%;
             padding: 20px 10px;
+        }
+    }
+
+    .modal {
+        padding-top: 35px;
+        width: 320px;
+        &__close {
+            top: 12px;
+            right: 0px;
+            font-size: 55px;
         }
     }
 }
